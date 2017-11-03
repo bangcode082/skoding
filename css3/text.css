@@ -1,0 +1,11 @@
+#text1{
+	/*text-shadow: horizontal vertical blur color;*/
+	text-shadow: 5px 5px 2px black;
+}
+
+#div1{
+	width: 50px;
+	overflow: scroll;
+	/*text-overflow: ellipsis;*/
+	word-wrap: break-word;
+}

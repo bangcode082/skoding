@@ -1,0 +1,31 @@
+body{
+	margin-bottom: 500px;
+	margin-left: 50px;
+}
+
+#box{
+	perspective: 200px;
+}
+
+#card{
+	background: blue;
+	width: 200px; height: 200px;
+	transition: transform 2s;
+	border:2px solid black;
+	transform-style: preserve-3d;
+
+}
+
+#card:hover{
+	transform: rotateY(180deg);
+}
+
+#front , #back{
+	position: absolute;
+	backface-visibility: hidden;
+	height: 200px; width: 200px;
+}
+
+#back{
+	transform: rotateY(180deg);
+}

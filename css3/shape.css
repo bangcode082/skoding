@@ -1,0 +1,49 @@
+/*belajar border radius*/
+
+#box{
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 10px;
+}
+
+#box2{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	border-radius: 50%;
+}
+
+/*untuk box shadow*/
+
+#box3{
+	width: 100px;
+	height: 100px;
+	background: red;
+	/*box-shadow: horizontal vertical blur spread color*/
+	box-shadow: 10px 10px 20px 2px black;
+}
+
+/*belajar box sizing & vendor prefix*/
+#box4{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border:1px solid black;
+	background: red;
+	box-sizing: border-box;
+
+	/*vendor prefix*/
+	-webkit- box-sizing: border-box;
+	-moz- box-sizing: border-box;
+	-o- box-sizing: border-box;
+	-ms- box-sizing: border-box;
+	
+}
+
+#box5{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	
+}

@@ -1,0 +1,21 @@
+div{
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 1s, background 1s,height 1s;
+}
+
+#div1:hover{
+	width: 200px;
+}
+
+#div2:hover{
+	transition-delay: 2s;
+	background:blue;
+}
+
+#div3:hover{
+	transition-timing-function: ease-in-out;
+	height: 120px;
+}
+

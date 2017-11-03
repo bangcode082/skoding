@@ -1,0 +1,29 @@
+/*2d transformation*/
+#div1{
+	width: 100px;
+	height: 100px;
+	background: red;
+	transform: translate(50px,20px);
+}
+
+
+#div2{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	transform: rotate(40deg);
+}
+
+#div3{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	transform: scale(1.5,1);
+}
+
+#div4{
+	width: 100px;
+	height: 100px;
+	background: aqua;
+	transform: skew(10deg,10deg);
+}
